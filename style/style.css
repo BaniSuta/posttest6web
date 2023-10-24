@@ -207,6 +207,39 @@ footer p {
     font-size: 10px;
     overflow-x: hidden;
   }
+
+  .btn-aksi {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .btn {
+    width: 20px;
+    font-size: 7px;
+  }
+
+  .btn:first-child {
+    width: 17px;
+  }
+
+  .navbar {
+    font-size: 10px;
+  }
+
+  .tanggal {
+    flex-direction: column;
+  }
+
+  .tanggal p:first-child {
+    margin-right: 0px;
+  }
+
+  .tanggal p:last-child {
+    margin-top: -5px;
+  }
+
   .card {
     width: 100px;
     height: 400px;

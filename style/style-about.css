@@ -143,6 +143,22 @@ footer p {
     overflow-x: hidden;
   }
 
+  .navbar {
+    font-size: 10px;
+  }
+
+  .tanggal {
+    flex-direction: column;
+  }
+
+  .tanggal p:first-child {
+    margin-right: 0px;
+  }
+
+  .tanggal p:last-child {
+    margin-top: -5px;
+  }
+
   .cont-img-sec {
     text-align: center;
   }

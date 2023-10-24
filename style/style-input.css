@@ -91,15 +91,6 @@ header {
   width: 250px;
 }
 
-.rd {
-  width: 20px;
-}
-
-.rad {
-  display: flex;
-  align-items: center;
-}
-
 select {
   width: 250px;
 }
@@ -168,11 +159,42 @@ footer p {
 }
 
 @media (max-width: 900px) {
-  td {
+  .navbar {
+    font-size: 10px;
+  }
+
+  .tanggal {
+    flex-direction: column;
+  }
+
+  .tanggal p:first-child {
+    margin-right: 0px;
+  }
+
+  .tanggal p:last-child {
+    margin-top: -5px;
+  }
+
+  table {
+    width: 100%;
     display: flex;
+    margin: 0 auto;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 70%;
+  }
+
+  tr {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
   }
 
   td.akhir {
+    display: flex;
     justify-content: center;
   }
 }
